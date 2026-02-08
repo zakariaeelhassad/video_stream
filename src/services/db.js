@@ -59,7 +59,7 @@ export const db = {
         return list.some(item => item.userId === userId && item.videoId === videoId);
     },
 
-    // History Operations
+
     addToHistory: (userId, videoId) => {
         const history = storage.get(HISTORY_KEY, []);
 
