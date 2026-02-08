@@ -8,7 +8,7 @@ export const db = {
     getVideos: async () => {
         return new Promise((resolve) => {
             setTimeout(() => {
-                // Return mock videos. In a real app we might merge with local edits.
+
                 resolve(INITIAL_VIDEOS);
             }, 300);
         });
@@ -26,7 +26,7 @@ export const db = {
 
     getCategories: () => CATEGORIES,
 
-    // Watchlist Operations
+
     getWatchlist: (userId) => {
         const list = storage.get(WATCHLIST_KEY, []);
         const userItems = list.filter(item => item.userId === userId);
