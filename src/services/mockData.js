@@ -1,0 +1,134 @@
+export const CATEGORIES = [
+    { id: '1', name: 'Action' },
+    { id: '2', name: 'Adventure' },
+    { id: '3', name: 'Comedy' },
+    { id: '4', name: 'Drama' },
+    { id: '5', name: 'Sci-Fi' },
+    { id: '6', name: 'Thriller' },
+    { id: '7', name: 'Horror' },
+    { id: '8', name: 'Documentary' },
+    { id: '9', name: 'Animation' },
+];
+
+export const INITIAL_VIDEOS = [
+    {
+        id: '1',
+        title: 'Inception',
+        description: 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.',
+        thumbnailUrl: 'https://img.youtube.com/vi/YoHD9XEInc0/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/YoHD9XEInc0',
+        duration: '2h 28m',
+        releaseYear: 2010,
+        type: 'FILM',
+        category: '5',
+        rating: 4.8,
+        director: 'Christopher Nolan',
+        cast: ['Leonardo DiCaprio', 'Joseph Gordon-Levitt', 'Elliot Page'],
+        views: 1250000
+    },
+    {
+        id: '2',
+        title: 'The Dark Knight',
+        description: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.',
+        thumbnailUrl: 'https://img.youtube.com/vi/EXeTwQWrcwY/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/EXeTwQWrcwY',
+        duration: '2h 32m',
+        releaseYear: 2008,
+        type: 'FILM',
+        category: '1', // Action
+        rating: 4.9,
+        director: 'Christopher Nolan',
+        cast: ['Christian Bale', 'Heath Ledger', 'Aaron Eckhart'],
+        views: 2000000
+    },
+    {
+        id: '3',
+        title: 'Interstellar',
+        description: 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.',
+        thumbnailUrl: 'https://img.youtube.com/vi/zSWdZVtXT7E/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/zSWdZVtXT7E',
+        duration: '2h 49m',
+        releaseYear: 2014,
+        type: 'FILM',
+        category: '5', // Sci-Fi
+        rating: 4.7,
+        director: 'Christopher Nolan',
+        cast: ['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain'],
+        views: 1500000
+    },
+    {
+        id: '4',
+        title: 'Breaking Bad',
+        description: 'A high school chemistry teacher turned methamphetamine producer turns to a life of crime in order to secure his family\'s financial future.',
+        thumbnailUrl: 'https://img.youtube.com/vi/HhesaQXLuRY/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/HhesaQXLuRY',
+        duration: '5 Seasons',
+        releaseYear: 2008,
+        type: 'SERIE',
+        category: '4', // Drama
+        rating: 4.95,
+        director: 'Vince Gilligan',
+        cast: ['Bryan Cranston', 'Aaron Paul', 'Anna Gunn'],
+        views: 3000000
+    },
+    {
+        id: '5',
+        title: 'Stranger Things',
+        description: 'When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.',
+        thumbnailUrl: 'https://img.youtube.com/vi/b9EkMc79ZSU/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/b9EkMc79ZSU',
+        duration: '4 Seasons',
+        releaseYear: 2016,
+        type: 'SERIE',
+        category: '5', // Sci-Fi
+        rating: 4.6,
+        director: 'The Duffer Brothers',
+        cast: ['Winona Ryder', 'David Harbour', 'Finn Wolfhard'],
+        views: 2500000
+    },
+    {
+        id: '6',
+        title: 'Avengers: Endgame',
+        description: 'After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos\' actions and restore balance to the universe.',
+        thumbnailUrl: 'https://img.youtube.com/vi/TcMBFSGVi1c/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/TcMBFSGVi1c',
+        duration: '3h 1m',
+        releaseYear: 2019,
+        type: 'FILM',
+        category: '1', // Action
+        rating: 4.8,
+        director: 'Anthony Russo, Joe Russo',
+        cast: ['Robert Downey Jr.', 'Chris Evans', 'Mark Ruffalo'],
+        views: 4000000
+    },
+    {
+        id: '7',
+        title: 'Parasite',
+        description: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.',
+        thumbnailUrl: 'https://img.youtube.com/vi/5xH0HfJHsaY/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/5xH0HfJHsaY',
+        duration: '2h 12m',
+        releaseYear: 2019,
+        type: 'FILM',
+        category: '6', // Thriller
+        rating: 4.85,
+        director: 'Bong Joon Ho',
+        cast: ['Song Kang-ho', 'Lee Sun-kyun', 'Cho Yeo-jeong'],
+        views: 1800000
+    },
+    {
+        id: '8',
+        title: 'Planet Earth II',
+        description: 'David Attenborough returns with a new wildlife documentary that shows life in a variety of habitats.',
+        thumbnailUrl: 'https://img.youtube.com/vi/c8aFcHFu8QM/maxresdefault.jpg',
+        trailerUrl: 'https://www.youtube.com/embed/c8aFcHFu8QM',
+        duration: '6 Episodes',
+        releaseYear: 2016,
+        type: 'DOCUMENTAIRE',
+        category: '8', // Documentary
+        rating: 4.9,
+        director: 'Alastair Fothergill',
+        cast: ['David Attenborough'],
+        views: 1000000
+    }
+];
