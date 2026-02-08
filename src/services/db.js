@@ -34,13 +34,13 @@ export const db = {
         return userItems.map(item => ({
             ...item,
             video: INITIAL_VIDEOS.find(v => v.id === item.videoId)
-        })).filter(item => item.video); // removing stale ids
+        })).filter(item => item.video);
     },
 
     addToWatchlist: async (userId, videoId) => {
         const list = storage.get(WATCHLIST_KEY, []);
         if (list.some(item => item.userId === userId && item.videoId === videoId)) {
-            return; // Already added
+
         }
         const newItem = { id: Date.now(), userId, videoId, addedAt: new Date().toISOString() };
         list.push(newItem);
