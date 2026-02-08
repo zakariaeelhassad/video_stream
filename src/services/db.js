@@ -30,7 +30,7 @@ export const db = {
     getWatchlist: (userId) => {
         const list = storage.get(WATCHLIST_KEY, []);
         const userItems = list.filter(item => item.userId === userId);
-        // Hydrate video data
+
         return userItems.map(item => ({
             ...item,
             video: INITIAL_VIDEOS.find(v => v.id === item.videoId)
