@@ -50,7 +50,7 @@ export const INITIAL_VIDEOS = [
         duration: '2h 49m',
         releaseYear: 2014,
         type: 'FILM',
-        category: '5', // Sci-Fi
+        category: '5',
         rating: 4.7,
         director: 'Christopher Nolan',
         cast: ['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain'],
@@ -65,7 +65,7 @@ export const INITIAL_VIDEOS = [
         duration: '5 Seasons',
         releaseYear: 2008,
         type: 'SERIE',
-        category: '4', // Drama
+        category: '4',
         rating: 4.95,
         director: 'Vince Gilligan',
         cast: ['Bryan Cranston', 'Aaron Paul', 'Anna Gunn'],
