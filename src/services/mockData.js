@@ -80,7 +80,7 @@ export const INITIAL_VIDEOS = [
         duration: '4 Seasons',
         releaseYear: 2016,
         type: 'SERIE',
-        category: '5', // Sci-Fi
+        category: '5',
         rating: 4.6,
         director: 'The Duffer Brothers',
         cast: ['Winona Ryder', 'David Harbour', 'Finn Wolfhard'],
