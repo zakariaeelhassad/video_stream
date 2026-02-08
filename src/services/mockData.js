@@ -125,7 +125,7 @@ export const INITIAL_VIDEOS = [
         duration: '6 Episodes',
         releaseYear: 2016,
         type: 'DOCUMENTAIRE',
-        category: '8', // Documentary
+        category: '8',
         rating: 4.9,
         director: 'Alastair Fothergill',
         cast: ['David Attenborough'],
