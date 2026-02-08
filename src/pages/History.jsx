@@ -11,15 +11,15 @@ const History = () => {
 
     useEffect(() => {
         if (user) {
-            // Making this async to avoid "setState during render" warning from linter
             Promise.resolve().then(() => {
+                Promise.resolve().then(() => {
 
-                const list = db.getHistory(user.id);
+                    const list = db.getHistory(user.id);
 
-                setVideos(list.map(item => item.video));
-                setLoading(false);
-            });
-        }
+                    setVideos(list.map(item => item.video));
+                    setLoading(false);
+                });
+            }
     }, [user]);
 
     if (loading) return <div className="flex justify-center p-8"><Loader2 className="animate-spin text-brand" /></div>;
