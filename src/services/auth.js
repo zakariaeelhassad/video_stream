@@ -5,7 +5,7 @@ const CURRENT_USER_KEY = 'currentUser';
 
 export const authService = {
     register: async (userData) => {
-        // Simulate API delay
+        await new Promise(resolve => setTimeout(resolve, 500));
         await new Promise(resolve => setTimeout(resolve, 500));
 
         const users = storage.get(USERS_KEY, []);
