@@ -95,7 +95,7 @@ export const INITIAL_VIDEOS = [
         duration: '3h 1m',
         releaseYear: 2019,
         type: 'FILM',
-        category: '1', // Action
+        category: '1',
         rating: 4.8,
         director: 'Anthony Russo, Joe Russo',
         cast: ['Robert Downey Jr.', 'Chris Evans', 'Mark Ruffalo'],
@@ -110,7 +110,7 @@ export const INITIAL_VIDEOS = [
         duration: '2h 12m',
         releaseYear: 2019,
         type: 'FILM',
-        category: '6', // Thriller
+        category: '6',
         rating: 4.85,
         director: 'Bong Joon Ho',
         cast: ['Song Kang-ho', 'Lee Sun-kyun', 'Cho Yeo-jeong'],
