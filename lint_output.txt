@@ -1,0 +1,4 @@
+
+> video-streaming-platform@0.0.0 lint
+> eslint .
+
