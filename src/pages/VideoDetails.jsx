@@ -21,7 +21,7 @@ const VideoDetails = () => {
                 const vid = await db.getVideoById(id);
                 setVideo(vid);
 
-                // Load similar videos (same category)
+
                 const allVideos = await db.getVideos();
                 setSimilarVideos(
                     allVideos.filter(v => v.category === vid.category && v.id !== vid.id).slice(0, 4)
