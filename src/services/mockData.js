@@ -35,7 +35,7 @@ export const INITIAL_VIDEOS = [
         duration: '2h 32m',
         releaseYear: 2008,
         type: 'FILM',
-        category: '1', // Action
+        category: '1',
         rating: 4.9,
         director: 'Christopher Nolan',
         cast: ['Christian Bale', 'Heath Ledger', 'Aaron Eckhart'],
