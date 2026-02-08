@@ -27,7 +27,7 @@ const VideoDetails = () => {
                     allVideos.filter(v => v.category === vid.category && v.id !== vid.id).slice(0, 4)
                 );
 
-                // Check watchlist
+
                 if (user) {
                     setInWatchlist(db.isInWatchlist(user.id, vid.id));
 
